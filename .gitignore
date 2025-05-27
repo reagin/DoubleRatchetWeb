@@ -1,0 +1,18 @@
+# 排除 client 目录下 Node.js 常见屏蔽项
+/client/node_modules/
+/client/dist/
+/client/build/
+/client/.env
+/client/.env.local
+/client/.env.development
+/client/.env.test
+/client/.env.production
+/client/npm-debug.log*
+/client/package-lock.json
+/client/.next/
+/client/.nuxt/
+/client/.cache/
+/client/.eslintcache
+
+# 排除 server 下的 config/config.go 文件
+/server/config/config.go
