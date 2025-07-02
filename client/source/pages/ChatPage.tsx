@@ -839,6 +839,7 @@ export default function ChatPage() {
 					} as InterfaceWSFrame)
 				);
 
+				// BUG: 手动延时操作，后续更改为信息收发确认机制
 				await new Promise(resolve => setTimeout(resolve, 100));
 
 				const sharedSecret = await calcSharedSecret(
